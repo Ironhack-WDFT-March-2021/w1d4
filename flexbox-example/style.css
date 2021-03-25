@@ -39,6 +39,7 @@ body {
   animation-delay: calc(1 * var(--stagger-delay));
 }
 .box:nth-of-type(2) {
+<<<<<<< HEAD
   background-image: url("https://images.unsplash.com/photo-1580676916365-70b94de0aa79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80");
   animation-delay: calc(2 * var(--stagger-delay));
 }
@@ -53,6 +54,22 @@ body {
 .box:nth-of-type(5) {
   background-image: url("https://images.unsplash.com/photo-1580676916365-70b94de0aa79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80");
   animation-delay: calc(5 * var(--stagger-delay));
+=======
+    background-image: url("https://images.unsplash.com/photo-1554457945-ba5df6648602?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80");
+    animation-delay: calc(2 * var(--stagger-delay))
+}
+.box:nth-of-type(3) {
+    background-image: url("https://images.unsplash.com/photo-1554457945-ba5df6648602?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80");
+    animation-delay: calc(3 * var(--stagger-delay))
+}
+.box:nth-of-type(4) {
+    background-image: url("https://images.unsplash.com/photo-1554457945-ba5df6648602?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80");
+    animation-delay: calc(4 * var(--stagger-delay))
+}
+.box:nth-of-type(5) {
+    background-image: url("https://images.unsplash.com/photo-1554457945-ba5df6648602?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2468&q=80");
+    animation-delay: calc(5 * var(--stagger-delay))
+>>>>>>> 90f3c25fefd97ed88cd38744d8817a4bde892e03
 }
 
 @keyframes cardEntrance {
@@ -65,3 +82,21 @@ body {
     transform: scale(1);
   }
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .box {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .box {
+        color: red;
+    }
+}
+>>>>>>> 90f3c25fefd97ed88cd38744d8817a4bde892e03
